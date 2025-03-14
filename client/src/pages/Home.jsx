@@ -69,12 +69,20 @@ const Home = () => {
                             viewport={{ once: false, amount: 0.3 }}
                             transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
                         >
-                            <a href="/about" className="px-8 py-3 text-lg bg-blue-600 hover:bg-blue-700 text-white rounded-full shadow-lg">
-                                Learn More
-                            </a>
-                            <a href="/book" className="px-8 py-3 text-lg border-2 border-green-500 text-green-500 hover:bg-green-500 hover:text-white rounded-full shadow-lg transition-all">
-                                Book Now
-                            </a>
+                          <a 
+  href="/about" 
+  className="max-w-[250px] mx-auto px-6 py-2 sm:px-8 sm:py-3 text-base sm:text-lg bg-blue-600 hover:bg-blue-700 text-white rounded-full shadow-lg"
+>
+  Learn More
+</a>
+
+<a 
+  href="/book" 
+  className="max-w-[250px] mx-auto px-6 py-2 sm:px-8 sm:py-3 text-base sm:text-lg border-2 border-green-500 text-green-500 hover:bg-green-500 hover:text-white rounded-full shadow-lg transition-all"
+>
+  Book Now
+</a>
+
                         </motion.div>
                     </div>
                 </div>
